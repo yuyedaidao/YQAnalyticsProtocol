@@ -1,0 +1,16 @@
+PODS:
+  - YQAnalyticsProtocol (0.1.0)
+
+DEPENDENCIES:
+  - YQAnalyticsProtocol (from `../`)
+
+EXTERNAL SOURCES:
+  YQAnalyticsProtocol:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YQAnalyticsProtocol: d17d0902d08ae1b310a92c52c2dca7a2f8638779
+
+PODFILE CHECKSUM: dc5e8b7b025eeada8f8ac2be7f367ceb9e0f5d95
+
+COCOAPODS: 1.7.0

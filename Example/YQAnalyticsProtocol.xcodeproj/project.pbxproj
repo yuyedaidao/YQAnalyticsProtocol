@@ -29,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		502D58A7E269BB25300F4241 /* Pods_YQAnalyticsProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQAnalyticsProtocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55953E8D22ACF3FC000B03E1 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		55953E8E22ACF434000B03E1 /* YQAnalyticsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAnalyticsProtocol.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YQAnalyticsProtocol_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQAnalyticsProtocol_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F4108BA2D371EE8F507509E /* Pods-YQAnalyticsProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAnalyticsProtocol_Tests.release.xcconfig"; path = "Target Support Files/Pods-YQAnalyticsProtocol_Tests/Pods-YQAnalyticsProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		92D71BEA32F379E47890491A /* YQAnalyticsProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YQAnalyticsProtocol.podspec; path = ../YQAnalyticsProtocol.podspec; sourceTree = "<group>"; };
+		92D71BEA32F379E47890491A /* YQAnalyticsProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQAnalyticsProtocol.podspec; path = ../YQAnalyticsProtocol.podspec; sourceTree = "<group>"; };
 		B05861BABB7A5A26A4D85410 /* Pods-YQAnalyticsProtocol_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAnalyticsProtocol_Example.debug.xcconfig"; path = "Target Support Files/Pods-YQAnalyticsProtocol_Example/Pods-YQAnalyticsProtocol_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BE6C92ACD577505B4A89D81F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BE6C92ACD577505B4A89D81F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C80763316F634D5EE03E66F5 /* Pods-YQAnalyticsProtocol_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAnalyticsProtocol_Example.release.xcconfig"; path = "Target Support Files/Pods-YQAnalyticsProtocol_Example/Pods-YQAnalyticsProtocol_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CFD8E7DEB8DF3644B4743746 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFD8E7DEB8DF3644B4743746 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D4AF5F3C315ECEA86998F6D5 /* Pods-YQAnalyticsProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAnalyticsProtocol_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YQAnalyticsProtocol_Tests/Pods-YQAnalyticsProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB1FB0B91D806E85D653950E /* Pods_YQAnalyticsProtocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQAnalyticsProtocol_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,9 +80,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55953E8C22ACF3FC000B03E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55953E8D22ACF3FC000B03E1 /* .gitkeep */,
+				55953E8E22ACF434000B03E1 /* YQAnalyticsProtocol.swift */,
+			);
+			name = Classes;
+			path = ../YQAnalyticsProtocol/Classes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				55953E8C22ACF3FC000B03E1 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for YQAnalyticsProtocol */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -156,7 +169,6 @@
 				D4AF5F3C315ECEA86998F6D5 /* Pods-YQAnalyticsProtocol_Tests.debug.xcconfig */,
 				6F4108BA2D371EE8F507509E /* Pods-YQAnalyticsProtocol_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +225,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QXPHWM9EW2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QXPHWM9EW2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +241,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
