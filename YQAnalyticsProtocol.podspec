@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YQAnalyticsProtocol'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'YQAnalyticsProtocol.'
 
 # This description is used to generate tags and improve search results.
@@ -17,22 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '畅媒未来版公共模块-YQAnalyticsProtocol'
+  s.description      = '用于封装埋点统计库YQAnalyticsProtocol'
 
-  s.homepage         = 'https://github.com/iqilu/YQAnalyticsProtocol'
+  s.homepage         = 'https://github.com/yuyedaidao/YQAnalyticsProtocol'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wyqpadding@gmail.com' => 'wyqpadding@gmail.com' }
-  s.source           = { :git => 'https://github.com/iqilu/YQAnalyticsProtocol.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yuyedaidao/YQAnalyticsProtocol.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'YQAnalyticsProtocol/Classes/**/*'
-  
-  s.resource_bundles = {
-    'YQAnalyticsProtocol' => ['YQAnalyticsProtocol/Assets/*.png']
-  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
