@@ -20,10 +20,7 @@ open class YQAnalyticsManager {
     public func register(_ actor: YQAnalyticsProtocol) {
         self.actor = actor
     }
-    public func getActor() -> YQAnalyticsProtocol {
-        guard let actor = self.actor else {
-            fatalError("请先注册一个YQAnalyticsProtocol的实例")
-        }
+    public func getActor() -> YQAnalyticsProtocol? {
         return actor
     }
 }
